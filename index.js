@@ -18,7 +18,7 @@ const app = express();
 const upload = multer();
 
 app.use(cors({
-  origin: 'http://18.228.30.230:3000',
+  origin: '*',
   credentials: true,
 }));
 
